@@ -4,5 +4,16 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'http://127.0.0.1:8000/api/',
+
+  //TODO: Configure with your Firebase project
+  firebase : {
+    apiKey: "<YOUR_API_KEY>",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "<YOUR_ID>"
+  },
 };
