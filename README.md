@@ -1,6 +1,6 @@
 # AngularSeed
 
-This is a basic template of the Atila front end to get you familiar with the front end set up.
+An outline of [Atila's front end](https://atila.ca/) to get you familiar with Atila's Angular architecture.
 
 
 
