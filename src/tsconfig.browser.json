@@ -6,8 +6,8 @@
     "module": "es2015",
     "types": []
   },
-  "exclude": [
-    "test.ts",
-    "**/*.spec.ts"
-  ]
+  "angularCompilerOptions": {
+    "entryModule": "./app/app.browser.module#AppBrowserModule"
+  },
+  "exclude": ["test.ts", "**/*.spec.ts"]
 }

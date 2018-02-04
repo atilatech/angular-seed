@@ -1,4 +1,5 @@
 import {Component, OnInit, ElementRef, ViewChild, AfterViewInit} from '@angular/core';
+
 import {
   Router,
   ActivatedRoute,
@@ -42,7 +43,8 @@ export class AppComponent implements AfterViewInit {
       if (!(event instanceof NavigationEnd)) {
         return;
       }
-      window.scrollTo(0, 0)
+      //   window.scrollTo(0, 0)
+
     });
   }
 

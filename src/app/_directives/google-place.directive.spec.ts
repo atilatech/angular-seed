@@ -2,7 +2,7 @@ import { GooglePlaceDirective } from './google-place.directive';
 
 describe('GooglePlaceDirective', () => {
   it('should create an instance', () => {
-    const directive = new GooglePlaceDirective();
+    const directive = new GooglePlaceDirective(null,null);
     expect(directive).toBeTruthy();
   });
 });

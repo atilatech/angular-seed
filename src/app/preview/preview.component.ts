@@ -88,15 +88,13 @@ export class PreviewComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
+    //   document.body.style.backgroundColor = '#194F87';
 
-    document.body.style.backgroundColor = '#194F87';
     // https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript-only
-
-
   }
 
   ngOnDestroy() {
-    document.body.style.backgroundColor = null;
+    //   document.body.style.backgroundColor = null;
   }
   /**
    * Adding Google Places API Autocomplete for User Location:
